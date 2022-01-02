@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "\u001b[B\u001b[A\u001b[B",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.3",
+    "mongoose-dateonly": "^1.0.6",
+    "mongoose-friends": "^0.2.5",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Falahudin Halim Shariski",
+  "license": "ISC",
+  "description": ""
+}
